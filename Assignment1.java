@@ -25,12 +25,12 @@ public class Assignment1 {
     
     //Requests the user to input an integer that will be assigned to the "Fahrenheit" variable
     System.out.println("Please enter a number in Fahrenheit: ");
-    float Fahrenheit;
-    Fahrenheit = scan.nextInt();
+    float fahrenheit;
+    fahrenheit = scan.nextInt();
     
     //Stores the Celsius temperature counterpart to the Fahrenheit temperature from the user input
-    float Celsius; 
-    Celsius = ((Fahrenheit - 32) * 5/9);
+    float celsius; 
+    celsius = ((fahrenheit - 32) * 5/9);
 
     //Prompts the user for a 5 character string, then saves the string in reverse without the first and last characters
     System.out.println("Please enter a 5 character string: ");
@@ -47,22 +47,6 @@ public class Assignment1 {
 
     //Adds the Celsius Temperature to the beginning of the string and adds the random generated number to the end.
    
-    System.out.println("Your new string is " + Celsius + reversedString + randomInt);
-    
-    
-
-    
-
-    
-    
-  
-
-    
-
-    
-
-
-
-
+    System.out.println("Your new string is " + celsius + reversedString + randomInt);
   }
 }
