@@ -39,7 +39,7 @@ public class Assignment1 {
 
     //Prompts the user for a 5 character string, then saves the string in reverse without the first and last characters
     System.out.println("Please enter a 5 character string: ");
-    randomString = scan.nextLine();
+    randomString = scan.next();
     randomString = randomString.substring(1, randomString.length() - 1);
     reversedString = new StringBuilder(randomString).reverse().toString();
     System.out.println(reversedString);
